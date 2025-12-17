@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 220px;
+            background-color: #0f172a; /* Dark Navy */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            border: 1px solid #1e293b;
+        }
+        h2 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #38bdf8; /* Cyan Header */
+        }
+        p {
+            font-size: 13px;
+            color: #FFDD00; /* Yellow Text */
+            margin-bottom: 20px;
+            line-height: 1.4;
+            font-weight: 500;
+        }
+        .bmc-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFDD00;
+            color: #000000;
+            text-decoration: none;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 15px;
+            transition: transform 0.2s, background-color 0.2s;
+            gap: 10px;
+        }
+        .bmc-btn:hover {
+            transform: translateY(-2px);
+            background-color: #ffea00;
+            box-shadow: 0 4px 10px rgba(255, 221, 0, 0.3);
+        }
+        .bmc-logo {
+            width: 20px;
+            height: 20px;
+            /* No 'fill' needed here since your SVG file has its own colors */
+        }
+        .footer {
+            margin-top: 15px;
+            font-size: 11px;
+            color: #475569;
+        }
+    </style>
+</head>
+<body>
+    <h2>G-Force Indicator</h2>
+    
+    <p>Enjoying the flight?<br>Support My Cause!</p>
+    
+    <a href="https://buymeacoffee.com/taintedsainted" target="_blank" class="bmc-btn">
+        <img src="bmc-icon.svg" class="bmc-logo" alt="Coffee">
+        Buy Me a Coffee
+    </a>
+
+    <div class="footer">v1.0 by TaintedSainted</div>
+</body>
+</html>

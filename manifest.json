@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "GeoFS G-Force Indicator",
+  "version": "1.0",
+  "description": "Adds a holographic G-Force HUD to GeoFS.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*.geo-fs.com/*", "*://geo-fs.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.geo-fs.com/*", "*://geo-fs.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected_ui.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
