@@ -3,12 +3,16 @@
 Read Me:
 
 ---> Features
-
+v1.0
 1. Live G-Force readout while flying
 2. Max / Min G tracking for the current flight
 3. Visual G-load history graph
 4. Very lightweight with no noticeable performance hit
 5. Enable/Disable blackout effects the UI slider.
+
+V.1.1
+6. Movable Hug
+7. Legacy Hide / Unhide
 
 ---> 📥 Installation
 
@@ -24,7 +28,7 @@ Read Me:
 If you find this useful, there’s a support link in the extension popup.
 Every bit helps keep the cause going.
 
-Version: 1.0
+Version: 1.1
 Author: TaintedSainted
 
 ---
