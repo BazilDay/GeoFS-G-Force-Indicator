@@ -11,8 +11,7 @@ v1.0
 5. Enable/Disable blackout effects the UI slider.
 
 V.1.1
-6. Movable Hug
-7. Legacy Hide / Unhide
+Movable Hud + Hide/Unhide Feature + 'H' Key Cycle (Syncs with GeoFS UI Logic)
 
 ---> 📥 Installation
 
